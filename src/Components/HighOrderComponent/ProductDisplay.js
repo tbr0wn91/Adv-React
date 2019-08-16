@@ -1,6 +1,6 @@
 import React from 'react';
 import HOC from './HOC';
-import './HigherOrderComponent.scss';
+import '../../App.scss'
 // /api/products
 
 function ProductDisplay(props){

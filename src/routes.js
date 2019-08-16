@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import PropTypes from './Components/PropTypes/PropTypes';
 import Container from './Components/Presentational/Container';
 import PhotoDisplay from './Components/HighOrderComponent/PhotoDisplay';
 import ProductDisplay from './Components/HighOrderComponent/ProductDisplay';
@@ -9,6 +10,11 @@ import DisplayProductsRender from './Components/RenderProps/DisplayProductsRende
 
 export default (
     <Switch>
+        {/* Prop Types */}
+        <Route 
+            path='/proptypes'
+            component={PropTypes}
+        />
         {/* Presentational */}
         <Route
             exact path="/"

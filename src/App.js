@@ -16,6 +16,7 @@ function App (){
         <Link to="/hocproducts"><button>HOC Products</button></Link>
         <Link to="/renderphotos"><button>Render Props Photos </button></Link>
         <Link to="/renderproducts"><button>Render Props Products</button></Link>
+        <Link to="/proptypes"><button>Prop Types</button></Link>
       </nav>
 
       <div>

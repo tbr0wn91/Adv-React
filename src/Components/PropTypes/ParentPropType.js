@@ -1,14 +1,11 @@
 import React, {Component} from 'react';
-import PropTypes from './PropTypes';
 
-class ParentPropType extends Component {
-    render(){
-        return (
+function ParentPropType(){
+    return (
         <div>
-            <PropTypes name='Hunter' />
+
         </div>
-        )
-    }
+    )
 }
 
 export default ParentPropType;

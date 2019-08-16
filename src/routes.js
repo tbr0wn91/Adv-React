@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import PropTypes from './Components/PropTypes/PropTypes';
+import PropTypes from './Components/PropTypes/ParentPropType';
 import Container from './Components/Presentational/Container';
 import PhotoDisplay from './Components/HighOrderComponent/PhotoDisplay';
 import ProductDisplay from './Components/HighOrderComponent/ProductDisplay';
